@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+   <meta charset="UTF-8">
+   <link rel="stylesheet" href="reset.css">
+   <link rel="stylesheet" href="style-home.css">
+
+   <link rel="preconnect" href="https://fonts.googleapis.com">
+   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+   <link href="https://fonts.googleapis.com/css2?family=Anton&family=Roboto:ital,wght@1,700&display=swap" rel="stylesheet">
+   <link href="https://fonts.googleapis.com/css2?family=Agbalumo&family=Anton&family=Manrope:wght@600&family=Roboto:ital,wght@1,700&family=Teko:wght@300&display=swap" rel="stylesheet">
+
+   <link rel="shortcut icon" href="img/Design sem nome.jpg" type="image/x-icon">
+
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>Casa Miga</title>
+</head>
+
+<body>
+
+   <header>
+      <nav id="top">
+         <img src="img/instagram.png">
+         <img src="img/facebook.png">
+      </nav>
+      <div class="caixa">
+         <h1><a href="index.html"><img id="img-logo" src="img/logo_casa_miga.png" /></a></h1>
+         <nav>
+            <ul>
+               <li><a href="conhecer.html">Conhecer</a></li>
+               <li><a href="doar.html">Doar</a></li>
+               <li><a href="contato.html">Contato</a></li>
+            </ul>
+         </nav>
+      </div>
+
+   </header>
+   <main>
+
+      <div class="transicao">
+         <h1>Contate-nos!</h1>
+      </div>
+      <form>
+         <label for="nomesobrenome">Nome e Sobrenome</label>
+         <input type="text" id="nomesobrenome" class="input-padrao" required placeholder="Seu Nome" />
+
+         <label for="email"> Email</label>
+         <input type="text" id="email" class="input-padrao" required placeholder="seuemail@email.com" />
+
+         <label for="telefone">Telefone</label>
+         <input type="text" id="telefone" class="input-padrao" placeholder="123456789" />
+
+         <label for="mensagem">Mensagem</label>
+         <textarea id="mensagem" cols="75" rows="10" class="input-padrao" required placeholder="Sua Mensagem"></textarea>
+
+         <div>
+            <p>Como prefere o nosso contato?</p>
+
+
+            <label for="radio-email"><input id="radio-email" name="contato" type="radio" value="email" checked>Email</label>
+
+
+            <label for="radio-telefone"><input id="radio-telefone" name="contato" type="radio" value="telefone" checked>Telefone</label>
+
+
+            <label for="radio-whatsapp"><input id="radio-whatsapp" name="contato" type="radio" value="whatsapp" checked>Whatsapp</label>
+
+         </div>
+         <label for="contato-email" style="margin-bottom: 15px;"><input type="checkbox" id="contato-email" checked>Gostaria de receber nosso contato por email?</label>
+
+
+         <input type="submit" value="Enviar formulário" class="enviar">
+      </form>
+   </main>
+   <footer>
+      <p>Desenvolvido por Antônio, Arlana, Glenda, Fernanda, Ítalo</p>
+      <nav id="down">
+         <img class="iconinstagram" src="img/instagram.png">
+         <img class="iconfacebook" src="img/facebook.png">
+      </nav>
+   </footer>
+</body>
+
+</html>
