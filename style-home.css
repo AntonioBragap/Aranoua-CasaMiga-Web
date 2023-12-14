@@ -31,6 +31,10 @@ nav li {
   font-family: "Agbalumo", serif;
   text-align: center;
 }
+.conhecer-main{
+  max-width: 940px;
+}
+
 
 nav#down img{
    width: 20px;
@@ -125,6 +129,7 @@ h2#showh2 {
   padding: 20px 0;
   border-left: none;
   border-right: none;
+  font-family: 'Abel', sans-serif;
 }
 .transicao h1 {
   font-size: 30px;
